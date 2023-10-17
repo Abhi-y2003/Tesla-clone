@@ -1,10 +1,14 @@
 import './App.css';
+import Navbar from './components/Navbar'
+import Modelone from './components/Model'
+import Modeltwo from './components/Modeltwo';
 
 function App() {
   return (
     <div>
-
-    <h1 className='text-3xl bg-red-600'>Hello world</h1>
+        <Navbar></Navbar>
+        <Modelone></Modelone>
+        <Modeltwo></Modeltwo>
 
     </div>
   )

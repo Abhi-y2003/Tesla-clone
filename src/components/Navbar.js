@@ -8,7 +8,8 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="flex justify-between items-center px-12 p-4 text-sm font-bold">
+    <div className="absolute z-10 inset-0"> 
+    <div className="flex justify-between items-center px-12 p-4 text-sm font-bold ">
       <div>
         <a href="https://tesla.com">
           <img
@@ -22,27 +23,27 @@ const Navbar = () => {
       <div className="hidden lg:inline">
         <ul className="flex justify-center hover:cursor-pointer ">
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">
-            {" "}
+          
             <a href="https://tesla.com/models">Model S</a>
           </li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">
-            {" "}
+            
             <a href="https://tesla.com/model3">Model 3</a>
           </li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">
-            {" "}
+            
             <a href="https://tesla.com/modelx">Model X</a>
           </li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">
-            {" "}
+            
             <a href="https://tesla.com/modely">Model Y</a>
           </li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">
-            {" "}
+            
             <a href="https://tesla.com/solarroof">Solar Roof</a>
           </li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">
-            {" "}
+            
             <a href="https://tesla.com/solarpannel">Solar Pannel</a>
           </li>
         </ul>
@@ -113,6 +114,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+    </div>
     </div>
   );
 };

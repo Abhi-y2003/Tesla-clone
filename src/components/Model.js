@@ -1,9 +1,9 @@
 import React from "react";
 import { FiChevronDown } from "react-icons/fi";
 
-const Model = () => {
+const Modelone = () => {
   return (
-    <div>
+    <div className="bg-[url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Mobile-NA.jpg')] lg:bg-[url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-NA.jpg')] h-screen bg-cover bg-center static relative">
       <div className="absolute inset-x-0 top-[15%] text-center ">
         <h1 className="text-4xl font-bold">Model 3</h1>
         <p className="p-2 text-sm">Ordre Online for <span className="underline underline-offset-4">Touchless Dilivery</span></p>
@@ -21,4 +21,4 @@ const Model = () => {
   );
 };
 
-export default Model;
+export default Modelone;
